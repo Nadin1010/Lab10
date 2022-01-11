@@ -36,6 +36,12 @@ namespace Lab10
                 minute = value % 60;
             }
         }
+        
+        // internal double ToRadians()
+        //{
+        // throw new NotImplementedException();
+        // }
+        
         public int Second
         {
             get { return second; }
@@ -51,8 +57,11 @@ namespace Lab10
             this.Minute = minute;
             this.Second = second;
         }
-        public static double ToRadians(double degAngle)
+        public static double ToRadians(/*double degAngle*/)
         { return Math.PI * degAngle / 180; }
     }
 }
     
+
+
+
